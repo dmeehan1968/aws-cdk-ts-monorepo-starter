@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/_oldcode" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/cdk.out" />
+      <excludeFolder url="file://$MODULE_DIR$/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/consumer/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/producer/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/benchmark/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/constructs/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/dashboard/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/helpers/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/middleware/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/poller/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/schema/lib" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/cdk/lib" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -1,0 +1,41 @@
+{
+  "name": "aws-cdk-ts-monorepo-starter",
+  "version": "0.0.1",
+  "description": "AWS CDK Typescript MonoRepo Starter",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "cdk:synth": "cdk synth",
+    "cdk:deploy": "cdk deploy",
+    "cdk:hotswap": "cdk deploy --hotswap-fallback --require-approval never --concurrency 8  --asset-parallelism",
+    "deps:list": "syncpack list",
+    "deps:fix": "syncpack fix-mismatches",
+    "deps:update": "ncu -ws --root -u"
+  },
+  "keywords": [
+    "aws",
+    "cdk",
+    "typescript",
+    "monorepo"
+  ],
+  "author": "Dave Meehan",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "aws-cdk": "^2.173.2",
+    "depcheck": "^1.4.7",
+    "esbuild": "^0.24.1",
+    "jest": "^29.7.0",
+    "jest-mock-extended": "^3.0.7",
+    "syncpack": "^13.0.0",
+    "ts-jest": "^29.2.5",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

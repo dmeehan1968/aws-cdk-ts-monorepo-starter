@@ -1,0 +1,19 @@
+{
+  "name": "@sqsbench/cdk",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "./src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "aws-cdk-lib": "^2.173.2",
+    "constructs": "^10.4.2",
+    "source-map-support": "^0.5.21"
+  }
+}
