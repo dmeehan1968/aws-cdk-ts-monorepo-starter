@@ -1,5 +1,5 @@
 {
-  "name": "@sqsbench/cdk",
+  "name": "@aws-cdk-ts-monorepo-starter/cdk",
   "version": "0.0.1",
   "type": "module",
   "files": [
